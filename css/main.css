@@ -99,6 +99,7 @@ section {
 	column-gap: 50px;
 	row-gap: 50px;
 	justify-content: center;
+	justify-items: center;
 	align-content: start;
 }
 
@@ -109,6 +110,7 @@ section {
 	column-gap: 20px;
 	row-gap: 50px;
 	justify-content: center;
+	justify-items: center;
 	align-content: start;
 }
 
@@ -214,7 +216,7 @@ footer {
 }
 
 @media (max-width: 1900px){
-	.contenedor-pedidos{ grid-template-columns: repeat(2, 1fr) }
+	.contenedor-pedidos{ grid-template-columns: repeat(2, 1fr); justify-items: center;}
 }
 
 @media(max-width: 1546px){
