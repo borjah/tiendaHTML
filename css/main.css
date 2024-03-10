@@ -39,7 +39,7 @@ nav ul {
 	display: inline-flex;
 	justify-content: space-between;
 	align-items: center;
-	min-width: 25%;
+	min-width: 25%;	
 }
 
 nav ul li {
@@ -55,7 +55,6 @@ nav ul li a {
 }
 
 nav ul li:hover {
-	/*background-color: #97EB97;*/
 	border-bottom: 1px solid #97EB97;
 }
 
@@ -113,12 +112,17 @@ section {
 	align-content: start;
 }
 
-h1 {
-	margin: 20px;
+section h1 {
+	font-size: 32px;
+	font-weight: bold;
+	font-family: cursive;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
 }
 
 .contenedor-pedidos .etiqueta{
-	width: 420px !important;
+	width: 410px !important;
 }
 
 .etiqueta {
@@ -236,4 +240,8 @@ footer {
 @media (max-width: 600px) {
 	.etiqueta{ max-width: 350px;}
 	.div-banner{font-size: 1.5em; }
+}
+
+@media (max-width: 427px){
+	.navbar ul{display: none;}
 }
