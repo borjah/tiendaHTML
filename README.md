@@ -1,1 +1,1 @@
-Simple Landing Page about a Candy Shop
+Simple Landing Page just with HTML and CSS
