@@ -124,7 +124,7 @@ section h1 {
 }
 
 .contenedor-pedidos .etiqueta{
-	width: 410px !important;
+	width: 400px !important;
 }
 
 .etiqueta {
@@ -215,7 +215,7 @@ footer {
 	text-decoration: none;
 }
 
-@media (max-width: 1900px){
+@media (max-width: 1740px){
 	.contenedor-pedidos{ grid-template-columns: repeat(2, 1fr); justify-items: center;}
 }
 
